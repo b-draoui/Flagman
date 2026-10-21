@@ -1,0 +1,8 @@
+group,n,features
+volume,12,"dur, spkts, dpkts, sbytes, dbytes, rate, sload, dload, sloss, dloss, smean, dmean"
+timing,7,"sinpkt, dinpkt, sjit, djit, tcprtt, synack, ackdat"
+ttl,3,"sttl, dttl, ct_state_ttl"
+tcp_header,4,"swin, dwin, stcpb, dtcpb"
+app_content,5,"trans_depth, response_body_len, is_ftp_login, ct_ftp_cmd, ct_flw_http_mthd"
+conn_history,8,"ct_srv_src, ct_srv_dst, ct_dst_ltm, ct_src_ltm, ct_src_dport_ltm, ct_dst_sport_ltm, ct_dst_src_ltm, is_sm_ips_ports"
+categorical,3,"proto, service, state"
