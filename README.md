@@ -2,7 +2,7 @@
 
 CS395 Machine Learning final project, Mediterranean Institute of Technology, South Mediterranean University, Fall 2026. Instructor: Dr. Oumayma Bounouh.
 
-Team: NAME 1, NAME 2, NAME 3.
+Team: Belhassen Draoui, Serajdin Gadmur, Imad Kouider.
 
 Ten-class classification of network flows (Normal and nine attack categories) on the official UNSW-NB15 partition. Five model families are compared under one protocol, then tested for robustness to feature-group ablation, noise, missing values and attack types unseen during training.
 
