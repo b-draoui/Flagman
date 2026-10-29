@@ -1,6 +1,8 @@
 # Multiclass intrusion detection on UNSW-NB15: benchmark and robustness study
 
-CS395 Machine Learning final project, Mediterranean Institute of Technology, Fall 2026.
+CS395 Machine Learning final project, Mediterranean Institute of Technology, South Mediterranean University, Fall 2026. Instructor: Dr. Oumayma Bounouh.
+
+Team: NAME 1, NAME 2, NAME 3.
 
 Ten-class classification of network flows (Normal and nine attack categories) on the official UNSW-NB15 partition. Five model families are compared under one protocol, then tested for robustness to feature-group ablation, noise, missing values and attack types unseen during training.
 
@@ -62,3 +64,36 @@ src/
 notebooks/           01 to 05
 results/             tables (.csv) and figures (.png)
 ```
+
+## Use of generative AI
+
+The code in this repository was written and run with the assistance of Claude (Anthropic). The team reviewed the code and the results and is responsible for them.
+
+## References
+
+Dataset
+
+- N. Moustafa and J. Slay. UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set). Military Communications and Information Systems Conference (MilCIS), IEEE, 2015.
+- N. Moustafa and J. Slay. The evaluation of Network Anomaly Detection Systems: Statistical analysis of the UNSW-NB15 data set and the comparison with the KDD99 data set. Information Security Journal: A Global Perspective, 2016.
+- N. Moustafa, J. Slay and G. Creech. Novel geometric area analysis technique for anomaly detection using trapezoidal area estimation on large-scale networks. IEEE Transactions on Big Data, 2017.
+- N. Moustafa, G. Creech and J. Slay. Big data analytics for intrusion detection system: statistical decision-making using finite Dirichlet mixture models. In Data Analytics and Decision Support for Cybersecurity, Springer, 2017.
+- M. Sarhan, S. Layeghy, N. Moustafa and M. Portmann. NetFlow Datasets for Machine Learning-Based Network Intrusion Detection Systems. Big Data Technologies and Applications (BDTA/WiCON 2020), Springer, 2021.
+
+Libraries
+
+- F. Pedregosa et al. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research 12, 2011.
+- T. Chen and C. Guestrin. XGBoost: A Scalable Tree Boosting System. KDD, 2016.
+- G. Lemaître, F. Nogueira and C. K. Aridas. Imbalanced-learn: A Python Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning. Journal of Machine Learning Research 18, 2017.
+- W. McKinney. Data Structures for Statistical Computing in Python. Proceedings of the 9th Python in Science Conference, 2010.
+- C. R. Harris et al. Array programming with NumPy. Nature 585, 2020.
+- P. Virtanen et al. SciPy 1.0: fundamental algorithms for scientific computing in Python. Nature Methods 17, 2020.
+- J. D. Hunter. Matplotlib: A 2D Graphics Environment. Computing in Science & Engineering 9, 2007.
+
+Methods
+
+- N. V. Chawla, K. W. Bowyer, L. O. Hall and W. P. Kegelmeyer. SMOTE: Synthetic Minority Over-sampling Technique. Journal of Artificial Intelligence Research 16, 2002.
+- F. Wilcoxon. Individual comparisons by ranking methods. Biometrics Bulletin 1, 1945.
+- S. Holm. A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics 6, 1979.
+- C. Nadeau and Y. Bengio. Inference for the Generalization Error. Machine Learning 52, 2003.
+- N. Cliff. Dominance statistics: Ordinal analyses to answer ordinal questions. Psychological Bulletin 114, 1993.
+- J. Romano, J. D. Kromrey, J. Coraggio and J. Skowronek. Appropriate statistics for ordinal level data. Annual Meeting of the Florida Association of Institutional Research, 2006.
