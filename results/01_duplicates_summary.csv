@@ -1,0 +1,8 @@
+,value
+train_records,175341
+repeated_feature_rows,74301
+contradictory_rows,30528
+removed_by_dedup,67601
+records_after_dedup,107740
+test_rows_seen_in_train,8541
+test_records,82332

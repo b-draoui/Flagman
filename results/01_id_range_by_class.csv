@@ -1,0 +1,11 @@
+attack_cat,min,max
+Normal,1,115964
+Generic,117205,175341
+Exploits,48933,175306
+Fuzzers,48018,175002
+DoS,49000,175249
+Reconnaissance,48867,175180
+Analysis,47933,172533
+Backdoor,47912,174021
+Shellcode,48814,175338
+Worms,49960,168944

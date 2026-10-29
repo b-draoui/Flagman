@@ -1,0 +1,21 @@
+{
+  "Dummy": {},
+  "LogReg": {
+    "C": 10.0
+  },
+  "kNN": {
+    "n_neighbors": 5,
+    "weights": "distance"
+  },
+  "NaiveBayes": {
+    "var_smoothing": 0.001
+  },
+  "RandomForest": {
+    "max_features": 0.3,
+    "min_samples_leaf": 1
+  },
+  "XGBoost": {
+    "max_depth": 6,
+    "learning_rate": 0.1
+  }
+}

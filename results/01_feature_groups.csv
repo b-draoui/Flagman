@@ -1,4 +1,4 @@
-group,n,features
+group,n_features,features
 volume,12,"dur, spkts, dpkts, sbytes, dbytes, rate, sload, dload, sloss, dloss, smean, dmean"
 timing,7,"sinpkt, dinpkt, sjit, djit, tcprtt, synack, ackdat"
 ttl,3,"sttl, dttl, ct_state_ttl"
